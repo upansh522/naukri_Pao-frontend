@@ -14,7 +14,7 @@ const App=()=> {
       <Routes>
         <Route path='/user' element={<><Header/><Dashboard /></>} />
         <Route path='/recruiter' element={<Header/>}/>
-        <Route path='signup' element={<Signup />} />
+        <Route path='/signup' element={<Signup />} />
         <Route path='/' element={<Login/>} />
         <Route path='/user/profile' element={<ProfileInfo/>}/>
         <Route path='/admin/jobPostForm' element={<JobPostForm/>}/>
