@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import JobList from './Jobpost.js';  // Change this import to JobList to handle a list of jobs
+import JobList from './JobList.jsx';  
 import Sidebar from './Sidebar';
 import './Dashboard.css';
 
