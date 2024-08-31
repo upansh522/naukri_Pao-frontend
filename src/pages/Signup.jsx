@@ -77,7 +77,7 @@ export default function Signup() {
       e.preventDefault();  
       try {
           // Send POST request to the server
-          const response = await axios.post(`http://localhost:8080/handleUserSignup`, formData, {
+          const response = await axios.post(`https://naukri-pao-backend.onrender.com/handleUserSignup`, formData, {
               withCredentials: true, // Include credentials (cookies) in request
           });
 

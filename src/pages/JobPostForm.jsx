@@ -46,7 +46,7 @@ export default function JobPostForm() {
 
     try {
       // Replace 'your-api-endpoint' with your actual API endpoint
-      const response = await axios.post('http://localhost:8080/handleJobPost', formData);
+      const response = await axios.post('https://naukri-pao-backend.onrender.com/handleJobPost', formData);
       console.log('Response:', response.data);
       navigate('/user')
       

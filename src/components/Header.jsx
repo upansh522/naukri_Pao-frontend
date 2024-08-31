@@ -17,7 +17,7 @@ export default function Header() {
 
   const handleSignout = async () => {
     try {
-        const response = await axios.post('http://localhost:8080/handleSignout', {}, { withCredentials: true });
+        const response = await axios.post('https://naukri-pao-backend.onrender.com/handleSignout', {}, { withCredentials: true });
         if (response.status === 200) {
             // Successfully logged out
             // Redirect to login page or home page

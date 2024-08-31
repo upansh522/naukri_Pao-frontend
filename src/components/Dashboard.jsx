@@ -14,7 +14,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchJobs = async () => {
       try {
-        const response = await axios.get('http://localhost:8080/handleJobRecommendation', {
+        const response = await axios.get('https://naukri-pao-backend.onrender.com/handleJobRecommendation', {
           withCredentials: true // This ensures cookies are sent with the request
         });
         const jobsData = response.data;
