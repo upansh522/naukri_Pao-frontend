@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-export default function Signup() {
+export default function CraeteAccount() {
   const navigate = useNavigate();
   const [formStep, setFormStep] = useState(0);
   const [formData, setFormData] = useState({
